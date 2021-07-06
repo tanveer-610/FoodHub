@@ -48,14 +48,13 @@ a{
     margin-bottom: 120px;
 }
 .headercolumn img{
-    width: 620px;
-    padding-right: 120px;
-    padding-top: 80px;
+    width: 100%; 
+    padding-top: 40px;
     height: 110%;
 }
 .headercolumn h1{
-    padding-top: 210px;
-    font-size: 60px;
+    padding-top: 250px;
+    font-size: 70px;
     padding-left: 60px;
     color: rgb(124, 120, 120);
 }
@@ -82,11 +81,13 @@ a{
 
 /* ---------------about me starts----------- */
 .about-me{
-    padding-top: 30px;
+    padding: 60px;
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position:center;
+    background-clip: border-box;
+    background-size:cover;
+    
 }
 .about img{
     width: 300px;   
