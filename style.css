@@ -185,8 +185,8 @@ h2{
     flex-basis: 48%;
     height: 300px;
     margin-bottom: 10%;
-    box-shadow: 2px 4px 4px 4px rgb(165, 99, 66);
-    border-left: 4px solid tomato;
+    box-shadow: 4px 4px 6px 8px rgb(107, 105, 105);
+    border-top: 6px solid rgb(114, 138, 241);
     font-family: 'Permanent Marker', cursive;
 }
 #map{
