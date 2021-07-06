@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-col img{
+    width: 60px;   
+}
+.navbar{
+    background-color: tomato;
+}
+.nav-col{
+    text-align: center;
+    padding:15px ;
+}
+.nav-col ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-col ul li a{
+    padding: 10px;
+    color: white;
+}
+.nav-col h1{
+    font-family: 'Permanent Marker', cursive;
+    color: white;
+    font-size: 40px;
+}
+.headercolumn{
+    font-family: 'Poppins', sans-serif;  
+}
+.header{
+    margin-bottom: 120px;
+}
+.headercolumn img{
+    width: 620px;
+    padding-right: 120px;
+    padding-top: 80px;
+    height: 110%;
+}
+.headercolumn h1{
+    padding-top: 210px;
+    font-size: 60px;
+    padding-left: 60px;
+    color: rgb(124, 120, 120);
+}
+.headercolumn p,.btn{
+    margin-left: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.word-styling{
+    color: orangered;
+}
+.btn{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,rgb(245, 132, 98),orangered);
+}
+.btn a{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.about-me{
+    padding-top: 30px;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.about img{
+    width: 300px;   
+}
+.about{
+    padding-left: 200px;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    color: rgb(124, 120, 120);
+    font-weight: bold;
+    font-size: 35px;
+}
+.about2{
+    padding-left: 100;
+    padding-right: 150px;
+    padding-top: 70px;
+}
+.about2 h2{
+    margin-bottom: 40px;
+}
+.about2 p{
+    margin-bottom: 75px;
+}
+.btnConatct{
+    padding: 20px 25px;
+    border: none;
+    border-radius: 30px;
+    background-image: linear-gradient(to right,rgb(245, 132, 98),orangered);
+}
+.btnConatct a{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+.recipie{
+    margin-top: 35px;
+    text-align: center;
+    margin: 0 10%;
+}
+.recipie h2{
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.recipie p{
+    margin-bottom: 25px;
+}
+
+.cardImg img{
+    width: 90%;
+    margin-bottom: 15px;
+    margin-top: 5%;
+}
+.card-title p{
+    text-align: left;
+    padding-left: 20px;
+    line-height: 1 rem;
+}
+.card-title h3{
+    font-size: 30px;
+    margin-bottom: 25px;
+    text-align: left;
+    padding-left: 20px;
+}
+.card{
+    flex-basis: 31%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px;
+}
+.visitor{
+    margin: 0 10%;
+    margin-top: 150px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 15px; 
+    height: 200px;
+    margin-bottom: 150px;
+}
+.subscriber{
+    padding: 0 9%; 
+    padding-top: 60px;
+
+}
+.subscriber h2{
+    font-weight:bolder;
+    font-size: 30px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 25px;
+}
+.subscriber p{
+    margin-bottom: 120px;
+    font-size: 1.1rem;
+    color: gray;
+}
+.get-in-touch{
+    margin: 0 10%;
+    text-align: center;
+}
+.get-in-touch h2{
+    color:rgb(143, 98, 90);
+    padding-bottom: 25px;
+}
+.contact-info{
+    flex-basis: 48%;
+    height: 300px;
+    margin-bottom: 10%;
+    box-shadow: 2px 4px 4px 4px rgb(165, 99, 66);
+    border-left: 4px solid tomato;
+    font-family: 'Permanent Marker', cursive;
+}
+#map{
+    width: 100%;
+    height: 74%;
+}
+#media-icon{
+    padding-top: 100px;
+}
+.fab{
+    padding: 10px;
+    font-size: 2rem;
+    cursor: pointer;
+}
+footer{
+    height: 215px;
+    background-color: black;
+    text-align: center;
+}
+footer h2{
+    padding-top: 50px;
+}
+footer p{
+    color: rgb(133, 125, 125);
+    padding-top: 15px;
+}
