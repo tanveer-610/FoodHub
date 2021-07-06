@@ -5,17 +5,19 @@
 }
 a{
     text-decoration: none;
-    
+    color: white;
 }
 .flex-container{
     display: flex;
     justify-content: space-between;
 }
+
+/* ---------------navcol starts----------- */
 .nav-col img{
     width: 60px;   
 }
 .navbar{
-    background-color: tomato;
+    background-image: linear-gradient(to right,rgb(245, 132, 98),orangered);
 }
 .nav-col{
     text-align: center;
@@ -36,6 +38,9 @@ a{
     color: white;
     font-size: 40px;
 }
+
+
+/* ---------------header starts----------- */
 .headercolumn{
     font-family: 'Poppins', sans-serif;  
 }
@@ -73,6 +78,9 @@ a{
     font-weight: bold;
     font-size: large;
 }
+
+
+/* ---------------about me starts----------- */
 .about-me{
     padding-top: 30px;
     background-image: url(images/shapes/7.png);
@@ -114,6 +122,10 @@ h2{
     font-weight: bold;
     font-size: large;
 }
+
+
+
+/* ---------------receipe starts----------- */
 .recipie{
     margin-top: 35px;
     text-align: center;
@@ -123,8 +135,9 @@ h2{
     margin-top: 50px;
     margin-bottom: 25px;
 }
-.recipie p{
-    margin-bottom: 25px;
+#reciepe-paragraph{
+    margin-bottom: 45px;
+    text-align: center;
 }
 
 .cardImg img{
@@ -136,6 +149,7 @@ h2{
     text-align: left;
     padding-left: 20px;
     line-height: 1 rem;
+    padding-bottom: 25px;
 }
 .card-title h3{
     font-size: 30px;
@@ -148,6 +162,10 @@ h2{
     box-shadow: 10px 10px 40px gray;
     border-radius: 15px;
 }
+
+
+
+/* ---------------visitors section starts----------- */
 .visitor{
     margin: 0 10%;
     margin-top: 150px;
@@ -173,6 +191,9 @@ h2{
     font-size: 1.1rem;
     color: gray;
 }
+
+
+/* ---------------contact us starts----------- */
 .get-in-touch{
     margin: 0 10%;
     text-align: center;
@@ -182,16 +203,35 @@ h2{
     padding-bottom: 25px;
 }
 .contact-info{
-    flex-basis: 48%;
-    height: 300px;
+    flex-basis: 30%;
+    height: 380px;
     margin-bottom: 10%;
     box-shadow: 4px 4px 6px 8px rgb(107, 105, 105);
     border-top: 6px solid rgb(114, 138, 241);
     font-family: 'Permanent Marker', cursive;
+    border-radius: 20px;
+}
+.submit{
+    padding: 8px 10px;
+    background-image: linear-gradient(to right,rgb(245, 132, 98),orangered);
+    border: none;
+    border-radius: 15px;
+}
+.contact-info input,textarea{
+    text-align: left;
+    width: 90%;
+    padding: 10px;
+    margin: 10px 5px;
+    border: none;
+    background-color: rgb(211, 198, 198);
+    border-radius: 10px;
+    resize: none;
 }
 #map{
     width: 100%;
-    height: 74%;
+    height: 80%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 #media-icon{
     padding-top: 100px;
@@ -201,6 +241,10 @@ h2{
     font-size: 2rem;
     cursor: pointer;
 }
+
+
+
+/* ---------------footer starts----------- */
 footer{
     height: 215px;
     background-color: black;
